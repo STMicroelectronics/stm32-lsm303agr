@@ -106,7 +106,7 @@ void LSM303AGR_AccInit(uint16_t InitStruct)
   COMPASSACCELERO_IO_Write(ACC_I2C_ADDRESS, LSM303AGR_CTRL_REG1_A, ctrl);
   
   /* Write value to ACC MEMS CTRL_REG4 register */
-  ctrl = (uint8_t) (InitStruct << 8);
+  ctrl = (uint8_t) (InitStruct >> 8);
   COMPASSACCELERO_IO_Write(ACC_I2C_ADDRESS, LSM303AGR_CTRL_REG4_A, ctrl);
 }
 
