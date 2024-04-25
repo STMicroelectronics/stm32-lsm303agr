@@ -2,8 +2,6 @@
   ******************************************************************************
   * @file    lsm303agr.h
   * @author  MCD Application Team
-  * @version V1.0.0
-  * @date    10-October-2016
   * @brief   This file contains all the functions prototypes for the lsm303agr.c driver.
   ******************************************************************************
   * @attention

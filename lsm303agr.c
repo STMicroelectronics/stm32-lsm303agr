@@ -2,8 +2,6 @@
   ******************************************************************************
   * @file    lsm303agr.c
   * @author  MCD Application Team
-  * @version V1.0.0
-  * @date    10-October-2016
   * @brief   This file provides a set of functions needed to manage the lsm303agr
   *          MEMS accelerometer.
   ******************************************************************************
