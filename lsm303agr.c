@@ -237,7 +237,7 @@ void LSM303AGR_AccReadXYZ(int16_t* pData)
     }
   }
   
-  /* Normal mode */
+  /* High-resolution mode */
   /* Switch the sensitivity value set in the CRTL4 */
   switch(ctrlx[0] & LSM303AGR_FULLSCALE_16G)
   {
