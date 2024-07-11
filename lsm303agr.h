@@ -109,7 +109,11 @@
 #define LSM303AGR_Y_REG_L_M                 0x47  /* Hard-iron Y magnetic field */
 #define LSM303AGR_Y_REG_H_M                 0x48  /* Hard-iron Y magnetic field */
 #define LSM303AGR_Z_REG_L_M                 0x49  /* Hard-iron Z magnetic field */
-#define LSM303AGR_Z_REH_H_M                 0x4A  /* Hard-iron Z magnetic field */
+
+#define LSM303AGR_Z_REG_H_M                 0x4A  /* Hard-iron Z magnetic field */
+/* Legacy Define */
+#define LSM303AGR_Z_REH_H_M                 LSM303AGR_Z_REG_H_M
+
 #define LSM303AGR_WHO_AM_I_M                0x4F  /* Who am i register magnetic field (0x40) */
 #define LSM303AGR_CFG_REG_A_M               0x60  /* Configuration register A magnetic field */
 #define LSM303AGR_CFG_REG_B_M               0x61  /* Configuration register B magnetic field */
